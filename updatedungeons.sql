@@ -35,7 +35,7 @@ REPLACE INTO dungeons VALUES (130549760,'Galerie du Phossile','','','');
 
 -- Fabrique de Malléfisk
 
-REPLACE INTO dungeons VALUES (130286592,'Fabrique de Malléfisk',130286592,300,'3652,3664,3663,3663,3665,3667,3667,3666');
+REPLACE INTO dungeons VALUES (130286592,'Fabrique de Malléfisk',130287616,300,'3652,3664,3663,3663,3665,3667,3667,3666');
 REPLACE INTO dungeons VALUES (130287616,'Fabrique de Malléfisk','','','');
 
 
