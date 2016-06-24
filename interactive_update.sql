@@ -73,3 +73,8 @@ Insert into interactives VALUES (1006,13633536,114,455369,0,'Teleport',13632512,
 Insert into interactives VALUES (1007,13631490,114,455380,0,'Teleport',13633538,276);
 Insert into interactives VALUES (1008,13631490,114,455381,0,'Teleport',13633538,276);
 
+-- Milice bonta
+
+Insert into interactives VALUES (1009,148280,114,415740,0,'Teleport',5506048,506);
+
+
