@@ -77,4 +77,17 @@ Insert into interactives VALUES (1008,13631490,114,455381,0,'Teleport',13633538,
 
 Insert into interactives VALUES (1009,148280,114,415740,0,'Teleport',5506048,506);
 
+-- Accès Kolizéum
+
+Insert into interactives VALUES (1010,138013,114,463608,0,'Teleport',81788928,479);
+Insert into interactives VALUES (1011,81788928,114,463607,0,'Teleport',81788930,429);
+Insert into interactives VALUES (1012,81788928,114,463606,0,'Teleport',81789952,437);
+
+-- Accès Malles aux trésors
+Insert into interactives VALUES (1013,144164,114,484926,0,'Teleport',128451073,494);
+Insert into interactives VALUES (1014,128451073,114,484927,0,'Teleport',144164,356);
+
+Insert into interactives VALUES (1015,128453121,114,484929,0,'Teleport',143652,357);
+Insert into interactives VALUES (1016,143652,114,484928,0,'Teleport',128453121,499);
+
 
