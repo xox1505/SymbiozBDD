@@ -5,19 +5,19 @@ REPLACE INTO dungeons VALUES (5244416,'Grotte Hesque',5242883,300,'1067,1066,106
 REPLACE INTO dungeons VALUES (5242883,'Grotte Hesque',5244419,300,'1064,,1065,1067,1066,1022,1022,1022,1022');
 REPLACE INTO dungeons VALUES (5244419,'Grotte Hesque',5242886,300,'1022,1022,1022,1022,1022,1022,1060,1064');
 REPLACE INTO dungeons VALUES (5242886,'Grotte Hesque',5244422,300,'1022,1027,1066,1067,1065,1064,1060,1061');
-REPLACE INTO dungeons VALUES (5244422,'Grotte Hesque','','','');
+DELETE FROM dungeons WHERE MapId = 5244422;
 
 -- Œil de Vortex
 
 REPLACE INTO dungeons VALUES (143393281,'Œil de Vortex',143394305,427,'3835,3834,3834,3836,3837,3839,3839,3838');
-REPLACE INTO dungeons VALUES (143394305,'Œil de Vortex','','','');
+DELETE FROM dungeons WHERE MapId = 143394305;
 
 
 -- Trône de la Cour Sombre
 
 REPLACE INTO dungeons VALUES (137101312,'Trône de la Cour Sombre',137103360,427,'3726,3746,3746,3747,3748,3750,3750,3749');
-REPLACE INTO dungeons VALUES (137103360,'Trône de la Cour Sombre','','','');
-REPLACE INTO dungeons VALUES (137102336,'Trône de la Cour Sombre','','','');
+DELETE FROM dungeons WHERE MapId = 137103360;
+DELETE FROM dungeons WHERE MapId = 137102336;
 
 -- Mégalithe de Fraktale
 
@@ -25,17 +25,16 @@ REPLACE INTO dungeons VALUES (143138823,'Mégalithe de Fraktale',143139847,343,'
 
 -- Horologium de XLII
 
-REPLACE INTO dungeons VALUES (143917569,'Horologium de XLII',143918593,300,'3849,3840,3841,3842,3844,3844,3843,3849');
-REPLACE INTO dungeons VALUES (143918593,'Horologium de XLII','','','');
+REPLACE INTO dungeons VALUES (143917569,'Horologium de XLII',143918593,300,'3849,3840,3841,3842,3844,3844,3843,3840');
+DELETE FROM dungeons WHERE MapId = 143918593;
 
 -- Galerie du Phossile
 
 REPLACE INTO dungeons VALUES (130548736,'Galerie du Phossile',130549760,300,'3851,3658,3658,3662,3662,3659,3660,3661');
-REPLACE INTO dungeons VALUES (130549760,'Galerie du Phossile','','','');
+DELETE FROM dungeons WHERE MapId = 130549760;
 
 -- Fabrique de Malléfisk
 
 REPLACE INTO dungeons VALUES (130286592,'Fabrique de Malléfisk',130287616,300,'3652,3664,3663,3663,3665,3667,3667,3666');
-REPLACE INTO dungeons VALUES (130287616,'Fabrique de Malléfisk','','','');
-
+DELETE FROM dungeons WHERE MapId = 130287616;
 
